@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.score {
+  display: inline-block;
+  padding:20px;
+  margin: 10px;
+  margin-top: 50px;
+  border: 1px solid purple;
+  font-size: large;
+  background-color:purple;
+  text-align: center;
+  margin-left: 18%;
+  position: absolute;
+  color: white;
+
+}
+.question{
+  padding: 10px;
+margin-top: 40px;
+  font-size: 24px;
+  border-radius: 50px;
+  background-color: darkgray;
+  width: 70%;
+  height: 450px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow:15px 10px 10px rgb(71, 71, 71)
+
+}
+.questions{
+  color:purple;
+  margin-right: 40px;
+  position: relative;
+  font-weight: bold;
+font-size: 30px;
+text-align: justify;
+}
+.anspointer{
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 12px;
+  background-color:white;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out; 
+
+}
+.anspointer:hover{
+  transform: translate(12px);
+  color: whitesmoke;
+  background-color: purple;
+
+}
+.index {
+  transition: all 0.3s ease-in-out; 
+  font-weight: bold;
+padding-right: 30px;
+padding-left: 10px;
+  /* border-radius: 12px 12px 12px 12px; */
+  color: black;
+  text-align: left;
+border: none;
+background-color: white;
+cursor: pointer;
+}
+.index:hover{
+  color: #fff;
+  background-color: purple;
+}
+.index:visited{
+  background-color: green;
+  color: #fff;
+}
+span{
+  padding: 8px;
+  border-radius: 12px 0 0 12px;
+  float: left;
+  background-color:purple;
+
+}
+.btn{
+float: right;
+margin-right: 650px;
+  border-radius: 5px;
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  transition: all 0.3s;
+  background-color: purple;
+  color:white;
+  margin-top: 20px;
+
+}
+.btn:hover{
+  color: #fff;
+  background-color: rgb(66, 179, 74);
+cursor: pointer;
+}
+.headname{
+display: flex;
+justify-content: space-between;
+align-items: center;
+  text-align: center;
+  background-color: purple;  
+  color: #fff;
+}
+.imgicon{
+  height: 37px;
+  width: 34px;
+  border-radius: 60px;
+  box-sizing: border-box;
+
+}
+.h1head{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.resultpage{
+border: 2px solid rgb(46, 46, 46);
+background-image: linear-gradient(darkgrey,rgb(226, 224, 224));
+width: 500px;
+height: 350px;
+border-radius: 40px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+box-shadow: 10px 5px black;
+font-family: sans-serif;
+font-size: 20px;
+}
+.pscore{
+border: 4px solid purple;
+background-color: purple;
+color: #fff;
+}
+.butres{
+padding: 8px;
+width: 90px;
+color: #fff;
+background-color: purple;
+border: none;
+}
+.butres:hover{
+  background-color:rgb(235, 94, 235);
+  cursor: pointer;
+}
+.resulth1{
+  display: flex;
+  justify-content: center;
+}
+
